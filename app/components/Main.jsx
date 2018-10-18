@@ -8,7 +8,7 @@ var Main = (props) => {
         backgroundColor: "yellow"
     };
     let lavenderStyle = {
-        backgroundColor: "lavender"
+        backgroundColor: "lightseagreen"
     };
     return (
         <div>
