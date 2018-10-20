@@ -1,9 +1,21 @@
 const React = require("react");
+const {Link} = require('react-router');
 
 var Examples = (props) => {
     return (
-        <h1>EXAMPLES (with arrow function)</h1>
+        <div>
+            <h1 className="text-center"></h1>
+            <p>Here are a few example locations to try out...</p>
+            <ol>
+                <li>
+                    <Link to="/?location=nowhere">Nowhere</Link>
+                </li>
+                <li>
+                    <Link to="/?location=Edinburgh">Edinburgh</Link>
+                </li>
+            </ol>
+        </div>
     );
-}
+};
 
 module.exports = Examples;
