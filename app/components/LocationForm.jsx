@@ -8,7 +8,7 @@ var LocationForm = React.createClass({
                     <input type="text" ref="location"/>
                 </div>
                 <div>
-                    <button>Get Weather</button>
+                    <button className="button hollow expanded">Get Weather</button>
                 </div>
             </form>
         );

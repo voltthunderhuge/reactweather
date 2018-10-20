@@ -10,7 +10,7 @@ var WeatherMessage = ({location, temperature}) => {
     if (location.length > 0 && typeof temperature === 'number') {
         return (
             <div>
-                <p>The weather for {location} is {temperature}</p>
+                <h3 className="text-center">The weather for {location} is {temperature}</h3>
             </div>
         );
     } else {
