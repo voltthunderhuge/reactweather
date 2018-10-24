@@ -8,6 +8,7 @@ function addPromise(a, b) {
     });
 }
 
+eror
 
 function addNumbers(a, b) {
     addPromise(a,b).then(function(result) {
